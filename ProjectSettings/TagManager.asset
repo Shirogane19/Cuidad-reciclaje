@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Organico
+  - Envase
+  - Residuo_Manejo
+  - Aluminio
+  - Vidrio
+  - Papel_Carton
+  - Ordinario
   layers:
   - Default
   - TransparentFX
