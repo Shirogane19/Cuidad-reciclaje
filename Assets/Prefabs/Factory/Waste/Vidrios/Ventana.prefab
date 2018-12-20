@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 212682677437010780}
   - component: {fileID: 61130471542000252}
   - component: {fileID: 50441049344432754}
+  - component: {fileID: 114162938136496986}
   m_Layer: 0
   m_Name: Ventana
   m_TagString: Vidrio
@@ -37,7 +38,7 @@ Transform:
   m_GameObject: {fileID: 1048814059089340}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 10.2464695, y: 3.446744, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.44, y: 0.44, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -53,7 +54,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 0.0001
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -87,6 +88,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.31, y: 1.4699999}
   m_EdgeRadius: 0
+--- !u!114 &114162938136496986
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1048814059089340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 604472e37c4faba4092e4d98f12dc7ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1
 --- !u!212 &212682677437010780
 SpriteRenderer:
   m_ObjectHideFlags: 1
