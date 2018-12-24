@@ -11,6 +11,8 @@ TagManager:
   - Vidrio
   - Papel_Carton
   - Ordinario
+  - Obstaculo
+  - ScreenShake
   layers:
   - Default
   - TransparentFX

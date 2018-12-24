@@ -3,19 +3,40 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/*
+ * Truck game runner, score manager
+ */
 public class TruckCollectorManager : MonoBehaviour {
 	//Score
-	private int scoreGoodCollected;
-	private int scoreWrongCollected;
+	public static int scoreGoodCollected;
+	public static int scoreWrongCollected;
 	//Character Hit point(life)
-	public int hp;
+	public static int hp;
 	// UI element <Text>Component
 	private Text scoreGoodText; 
 	private Text scoreWrongText;
 
-	private string tag; //Allow to know what kind of object should collide
+	public AudioClip hit;
+	public AudioClip getGoodPoint;
+	public AudioClip getBadPoint;
+	AudioSource audioSource;
 
-	void Start(){
+	private int pointToLevel2;
+
+	private ShakeCamera shake;
+
+	private string tag; //Allow to know what kind of object should collide
+	//----------------------------------------------------------
+	void Start()
+	{
+		scoreGoodCollected = 0;
+		scoreWrongCollected = 0;
+		pointToLevel2 = 5;
+		audioSource = GetComponent<AudioSource> ();
+		//Get camera component
+		shake = GameObject.FindGameObjectWithTag ("ScreenShake").GetComponent<ShakeCamera> ();
+		//Set Life points
+		hp = 3;
 		//Get Texts components
 		scoreGoodText = GameObject.Find ("ScoreRightPoints").GetComponent<Text> ();
 		scoreWrongText = GameObject.Find ("ScoreBadPoints").GetComponent<Text> ();
@@ -42,22 +63,32 @@ public class TruckCollectorManager : MonoBehaviour {
 			tag = "Ordinario";
 		}
 	}
-
-	void OnCollisionEnter2D(Collision2D col){
+	//----------------------------------------------------------
+	void OnCollisionEnter2D(Collision2D col)
+	{
 
 		if (col.gameObject.tag == tag) {
 			scoreGoodCollected++;
+			audioSource.PlayOneShot (getGoodPoint,1);
 		} else if (col.gameObject.tag == "Obstaculo") {
+			audioSource.PlayOneShot (hit,2);
+			shake.CamShake ();
 			hp--;
-			Debug.Log (hp);
 		} else {
 			scoreWrongCollected++;
+			audioSource.PlayOneShot (getBadPoint,1);
 		}
 
-		scoreGoodText.text = "Puntos Reciclados: " + scoreGoodCollected.ToString ();
-		scoreWrongText.text = "Puntos incorrectos: " + scoreWrongCollected.ToString ();
-	
+		scoreGoodText.text = "Reciclables: " + scoreGoodCollected.ToString ();
+		scoreWrongText.text = "No Reciclables: " + scoreWrongCollected.ToString ();
 		Destroy (col.gameObject);
 	}
-
+	//----------------------------------------------------------
+	void Update()
+	{
+		if(hp == 0){
+			gameObject.SetActive (false);
+		}
+	}	
+	//----------------------------------------------------------
 }

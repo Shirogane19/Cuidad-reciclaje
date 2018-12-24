@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * Spawn game objects 
+ */
 public class Spawner : MonoBehaviour {
 
 	private float timeBtwSpawns; //Time between spawns objects
@@ -10,12 +13,12 @@ public class Spawner : MonoBehaviour {
 	public float maxTimeSpawns;
 
 	public GameObject[] obstacleTemplate;
-
+	//----------------------------------------------------------
 	private void Start()
 	{
 		timeBtwSpawns = startTimeBtwSpawns;
 	}
-
+	//----------------------------------------------------------
 	private void Update()
 	{
 		if (timeBtwSpawns <= 0)
@@ -29,5 +32,5 @@ public class Spawner : MonoBehaviour {
 			timeBtwSpawns -= Time.deltaTime;
 		}
 	}
-
+	//----------------------------------------------------------
 }

@@ -2,9 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * AutoDestroy game object in designated time
+ */
 public class AutoDestroy : MonoBehaviour {
 
-	void Update () {
-		Destroy (gameObject,8);
+	public float timeToAutoDestroid;
+	//----------------------------------------------------------
+	void Update () 
+	{
+		Destroy (gameObject,timeToAutoDestroid);
 	}
+	//----------------------------------------------------------
 }
