@@ -631,60 +631,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1227695744}
   m_CullTransparentMesh: 0
---- !u!1 &1258101994
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1258101996}
-  - component: {fileID: 1258101995}
-  m_Layer: 0
-  m_Name: Spawner
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1258101995
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1258101994}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ecd04802e82a5f47be442e659280c9c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startTimeBtwSpawns: 1
-  minTimeSpawns: 1
-  maxTimeSpawns: 3
-  obstacleTemplate:
-  - {fileID: 1285782510168562, guid: 83c1864778b724d45919494c104d9a02, type: 3}
-  - {fileID: 1416538201842344, guid: 949204bd74d39384ca8df9ecc381ccc9, type: 3}
-  - {fileID: 1610478443961742, guid: 3567ff3595a71334d81c296192c53a1b, type: 3}
-  - {fileID: 1480935480581676, guid: 74ba574fbf5fb7f4a9b0a49962c31df9, type: 3}
-  - {fileID: 1554781043785724, guid: 0f7c89dcbaad04148a460cf47fa61900, type: 3}
-  - {fileID: 1990927510508434, guid: b52a370c098bf6941a5b0aacb7031944, type: 3}
-  - {fileID: 1295845645411252, guid: 81d1d1ce2e3114b4ba2e1299b1e27d2e, type: 3}
---- !u!4 &1258101996
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1258101994}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 17.8, z: 0}
-  m_LocalScale: {x: 0.3, y: 0.25, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1271245265
 GameObject:
   m_ObjectHideFlags: 0
@@ -936,7 +882,7 @@ RectTransform:
   - {fileID: 1759781456}
   - {fileID: 1227695745}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1397,5 +1343,5 @@ Transform:
   - {fileID: 1535004701}
   - {fileID: 1423850145}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

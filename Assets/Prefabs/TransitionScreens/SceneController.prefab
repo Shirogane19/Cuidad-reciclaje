@@ -734,7 +734,6 @@ MonoBehaviour:
   - {fileID: 21300008, guid: bf29ae59b32f734488ecb717123dbcbd, type: 3}
   - {fileID: 21300010, guid: bf29ae59b32f734488ecb717123dbcbd, type: 3}
   backgroundList:
-  - {fileID: 21300000, guid: 5d4f30ac380268645bb0f3bcf70606e9, type: 3}
   - {fileID: 21300000, guid: b5b505e54a50e9649a90b91eb6853d1c, type: 3}
   - {fileID: 21300000, guid: c7c38bf33639c2042b6c5707be7ef776, type: 3}
   - {fileID: 21300000, guid: 3f989f86f1bfecb40b3c10ff88a485f2, type: 3}

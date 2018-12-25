@@ -13,4 +13,8 @@ EditorBuildSettings:
     guid: 3e0938e809a05ec4eafe06e529943f79
   - enabled: 1
     path: Assets/Scenes/Garbage_truck_runner.unity
-    guid: 5822268a157fa7e4c8be23e0a665dfed
+    guid: 157d8f8b210b9d641aa87de2cf20eaf5
+  - enabled: 1
+    path: Assets/Scenes/Garbage_Seperator.unity
+    guid: 0ec2ad64d23398b4b81c858af3dba522
+  m_configObjects: {}
