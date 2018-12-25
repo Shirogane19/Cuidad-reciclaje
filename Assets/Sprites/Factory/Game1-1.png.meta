@@ -1,11 +1,28 @@
 fileFormatVersion: 2
-guid: 660e58e093ef1104b92dfbbb35c30330
-timeCreated: 1541713700
-licenseType: Free
+guid: cc2f065ce5d3fc94eae84be1c52603d4
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: 7
+    21300002: Game1-1_1
+    21300004: Game1-1_2
+    21300006: Game1-1_3
+    21300008: 6
+    21300010: Game1-1_5
+    21300012: Game1-1_6
+    21300014: 5
+    21300016: Game1-1_8
+    21300018: 4
+    21300020: Game1-1_10
+    21300022: 3
+    21300024: Game1-1_12
+    21300026: Game1-1_13
+    21300028: Game1-1_14
+    21300030: 2
+    21300032: Game1-1_16
+    21300034: 1
+    21300036: Game1-1_18
   externalObjects: {}
-  serializedVersion: 4
+  serializedVersion: 7
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -23,6 +40,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -33,30 +52,66 @@ TextureImporter:
     serializedVersion: 2
     filterMode: -1
     aniso: -1
-    mipBias: -1
+    mipBias: -100
     wrapU: 1
     wrapV: 1
     wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
+  spriteBorder: {x: 2816, y: 1819, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
-  spriteTessellationDetail: -1
+  spriteTessellationDetail: 0
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -68,10 +123,526 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
-    outline: []
+    sprites:
+    - serializedVersion: 2
+      name: 7
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 2099
+        width: 1825
+        height: 297
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc7426e034c82e74dafc1a2869681808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game1-1_1
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 2392
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 748951beb88026142a15a5c4009265da
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game1-1_2
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 1856
+        width: 580
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1530870885e2e09448d606ceb12826a5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game1-1_3
+      rect:
+        serializedVersion: 2
+        x: 2860
+        y: 1868
+        width: 580
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7d1c819154297c4e8d54c3aec9c7e33
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 1735
+        width: 1827
+        height: 298
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35b1f323d42b4344c81081bd18839a34
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game1-1_5
+      rect:
+        serializedVersion: 2
+        x: 2196
+        y: 1220
+        width: 580
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff202f5b2de2ce74c8c7affa1cb71839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game1-1_6
+      rect:
+        serializedVersion: 2
+        x: 2856
+        y: 1208
+        width: 579
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c49558c45cc032941b7c18f6b457cf9b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 1392
+        width: 1824
+        height: 297
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ca719ad14c72a45b0197e5aa60cb73
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game1-1_8
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 1684
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 698b40c3028180e41a4132cabc6d9e4c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 1040
+        width: 1825
+        height: 296
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecefd13e60723fc4ea503f74bd2c301c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game1-1_10
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1332
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfdbf7c7e0d715a4f9995ba287368cad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 684
+        width: 1825
+        height: 295
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c91d096f6c24d4247ad19c8e977428d2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game1-1_12
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 976
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61ce411d9c115d7468684849a5ab4f1c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game1-1_13
+      rect:
+        serializedVersion: 2
+        x: 2201
+        y: 574
+        width: 581
+        height: 581
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd5624364c6b4bd49a2383f2131c17ee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game1-1_14
+      rect:
+        serializedVersion: 2
+        x: 2853
+        y: 568
+        width: 581
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be6043a7f40b15f428c1f0943fbc4ee3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 344
+        width: 1827
+        height: 297
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8abe2845fe9ca8340890565be134e287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game1-1_16
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 638
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c75151bd9c5d14aa809049f348bdfc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 28
+        width: 1825
+        height: 295
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8366e319d2cfe274ca262e7e2c48dc36
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game1-1_18
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 321
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01df94fdf81e7c14792c70be3a9a876f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline:
+    - - {x: -1696.7892, y: -910.585}
+      - {x: -1696.7892, y: -1030.062}
+      - {x: -1462.9259, y: -1214.3978}
+      - {x: 39.26172, y: -1214.3978}
+      - {x: 107.54298, y: -1212.691}
+      - {x: 133.14844, y: -1204.157}
+      - {x: 133.14844, y: -1079.5596}
+      - {x: -30.726564, y: -910.585}
+    - - {x: -1698.4962, y: -593.11774}
+      - {x: -1698.4962, y: -721.1287}
+      - {x: -1538.0353, y: -898.6373}
+      - {x: 83.64454, y: -898.6373}
+      - {x: 133.14844, y: -895.2237}
+      - {x: 133.14844, y: -770.62634}
+      - {x: -75.109375, y: -593.11774}
+    - - {x: 1264.9102, y: -89.60771}
+      - {x: 1169.3164, y: -113.503105}
+      - {x: 1102.7422, y: -258.58224}
+      - {x: 1102.7422, y: -608.479}
+      - {x: 1278.5664, y: -675.04474}
+      - {x: 1589.2462, y: -675.04474}
+      - {x: 1688.254, y: -605.0654}
+      - {x: 1688.254, y: -133.98486}
+      - {x: 1585.8322, y: -89.60771}
+    - - {x: 544.54297, y: -82.78046}
+      - {x: 450.65628, y: -159.58707}
+      - {x: 450.65628, y: -550.4474}
+      - {x: 508.69534, y: -668.2175}
+      - {x: 988.37115, y: -668.2175}
+      - {x: 1036.168, y: -499.24295}
+      - {x: 1036.168, y: -236.39368}
+      - {x: 872.293, y: -82.78046}
+    - - {x: -1693.3751, y: -255.16862}
+      - {x: -1693.3751, y: -355.87064}
+      - {x: -1648.9923, y: -410.48865}
+      - {x: -1425.3712, y: -558.98145}
+      - {x: 112.66407, y: -558.98145}
+      - {x: 136.5625, y: -531.6724}
+      - {x: 136.5625, y: -415.6091}
+      - {x: -51.21094, y: -255.16862}
+    - - {x: 1276.8594, y: -347.33655}
+      - {x: 1505.6017, y: -330.26843}
+      - {x: 1512.4298, y: -429.2636}
+      - {x: 1420.2501, y: -504.3634}
+    - - {x: 626.48047, y: -330.26843}
+      - {x: 759.62897, y: -251.755}
+      - {x: 855.2227, y: -427.5568}
+      - {x: 757.92194, y: -497.53616}
+    - - {x: -1693.3751, y: 101.555405}
+      - {x: -1693.3751, y: -21.335169}
+      - {x: -1469.754, y: -202.2574}
+      - {x: 136.5625, y: -202.2574}
+      - {x: 136.5625, y: 98.14178}
+      - {x: 93.88673, y: 101.555405}
+    - - {x: 1172.7305, y: 550.4474}
+      - {x: 1104.4492, y: 328.5616}
+      - {x: 1104.4492, y: 50.351}
+      - {x: 1131.7617, y: -34.989677}
+      - {x: 1625.0939, y: -34.989677}
+      - {x: 1689.961, y: 96.43497}
+      - {x: 1689.961, y: 413.90228}
+      - {x: 1548.2775, y: 550.4474}
+    - - {x: 520.64453, y: 562.3951}
+      - {x: 445.5352, y: 371.23193}
+      - {x: 445.5352, y: 103.26222}
+      - {x: 565.02734, y: -23.041983}
+      - {x: 1022.5118, y: -23.041983}
+      - {x: 1031.0469, y: 26.45561}
+      - {x: 1031.0469, y: 535.08606}
+      - {x: 952.5235, y: 562.3951}
+    - - {x: 1290.5156, y: 193.72334}
+      - {x: 1336.6055, y: 366.1115}
+      - {x: 1450.9767, y: 371.23193}
+      - {x: 1520.965, y: 270.52994}
+    - - {x: 621.3594, y: 318.32074}
+      - {x: 786.94147, y: 384.88644}
+      - {x: 851.80865, y: 314.9071}
+      - {x: 761.336, y: 149.34619}
+    - - {x: -1684.84, y: 453.159}
+      - {x: -1684.84, y: 330.26843}
+      - {x: -1447.5626, y: 149.34619}
+      - {x: 124.61329, y: 149.34619}
+      - {x: 145.09766, y: 176.6552}
+      - {x: 145.09766, y: 291.01172}
+      - {x: -56.332035, y: 453.159}
+    - - {x: -1657.5275, y: 796.2285}
+      - {x: -1683.1329, y: 772.3331}
+      - {x: -1683.1329, y: 673.33795}
+      - {x: -1468.047, y: 492.4157}
+      - {x: -80.23047, y: 492.4157}
+      - {x: 148.51172, y: 499.24295}
+      - {x: 148.51172, y: 617.0131}
+      - {x: 114.3711, y: 719.42194}
+      - {x: -99.00782, y: 796.2285}
+    - - {x: 594.0469, y: 1199.0365}
+      - {x: 448.94925, y: 1091.5073}
+      - {x: 448.94925, y: 690.40607}
+      - {x: 594.0469, y: 613.5995}
+      - {x: 964.4727, y: 613.5995}
+      - {x: 1034.4609, y: 690.40607}
+      - {x: 1034.4609, y: 1154.6594}
+      - {x: 993.49225, y: 1199.0365}
+    - - {x: 1208.5781, y: 1210.9843}
+      - {x: 1179.5586, y: 1204.157}
+      - {x: 1109.5703, y: 1067.6119}
+      - {x: 1109.5703, y: 690.40607}
+      - {x: 1280.2734, y: 625.5472}
+      - {x: 1567.0548, y: 625.5472}
+      - {x: 1695.0822, y: 750.14453}
+      - {x: 1695.0822, y: 1122.2299}
+      - {x: 1544.8634, y: 1210.9843}
+    - - {x: 617.9453, y: 927.65314}
+      - {x: 701.5899, y: 1024.9415}
+      - {x: 855.2227, y: 859.3806}
+      - {x: 732.31647, y: 782.57404}
+    - - {x: 1355.3829, y: 801.34894}
+      - {x: 1333.1914, y: 1023.23474}
+      - {x: 1497.0665, y: 999.33936}
+      - {x: 1466.34, y: 811.58984}
+    - - {x: -1659.2345, y: 1161.4866}
+      - {x: -1693.3751, y: 1122.2299}
+      - {x: -1693.3751, y: 1050.5437}
+      - {x: -1655.8204, y: 1004.4598}
+      - {x: -1435.6134, y: 855.967}
+      - {x: -247.51955, y: 855.967}
+      - {x: 136.5625, y: 857.6738}
+      - {x: 136.5625, y: 1024.9415}
+      - {x: -92.179695, y: 1161.4866}
     physicsShape: []
+    bones: []
+    spriteID: bfb555679e1d45146a06cbfed37e79c0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
