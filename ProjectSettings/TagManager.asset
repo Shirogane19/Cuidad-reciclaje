@@ -10,7 +10,13 @@ TagManager:
   - Aluminio
   - Vidrio
   - Papel_Carton
+  - ScreenShake
+  - Wall
   - Ordinario
+  - Life1
+  - Life2
+  - Life3
+  - Machine
   layers:
   - Default
   - TransparentFX

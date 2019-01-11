@@ -4,22 +4,40 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class TrashCanPoints : MonoBehaviour {
-
     //Score
-    private int scorePointsCollected;
-    private int scoreIncorrectPointsCollected;
+    public static int scorePointsCollected;
+    //HP
+    public static int hp;
+    //Level 2
+    public int pointToNextLevel;
     // UI element <Text>Component
     private Text scorePoints;
-    private Text scoreIncorrectPoints;
+
+    //Audio
+    public AudioClip hit;
+    public AudioClip getGoodPoint;
+    AudioSource audioSource;
+
+    private TrashSpawn trashSpawner;
+    private GameObject trashSpawnerActivation;
+    private GameObject machine;
+    //private GameObject conveyorBelt;
 
     private string tag; //Allow to know what kind of object should collide
 
     void Start()
     {
+        scorePointsCollected = 0;
+        pointToNextLevel = 10;
+        audioSource = GetComponent<AudioSource>();
+        trashSpawnerActivation = GameObject.Find("TrashSpawner");
+        machine = GameObject.Find("Machine");
+        //Get camera component
+        //shake = GameObject.FindGameObjectWithTag("ScreenShake").GetComponent<ShakeCamera>();
+        //Set Life points
+        hp = 3;
         //Get Texts components
         scorePoints = GameObject.Find("ScorePoints").GetComponent<Text>();
-        scoreIncorrectPoints = GameObject.Find("IncorrectPoints").GetComponent<Text>();
-        //Check what kind of truck is instantiated to set its corresponding tag
         if (gameObject.name.Equals("Organic_basket"))
         {
             tag = "Organicos";
@@ -48,21 +66,38 @@ public class TrashCanPoints : MonoBehaviour {
         {
             tag = "Ordinario";
         }
-        Debug.Log(tag);
     }
 
     void OnCollisionEnter2D(Collision2D col)
     {
-        Debug.Log("Entro");
-
         if (col.gameObject.tag == tag)
+        {
             scorePointsCollected++;
-        else
-            scoreIncorrectPointsCollected++;
+            audioSource.PlayOneShot(getGoodPoint, 1);
+        }
+        else if (col.gameObject.tag == "Wall1" || col.gameObject.tag == "Wall2" || col.gameObject.tag == "Wall3" || col.gameObject.tag != tag)
+        {
+            audioSource.PlayOneShot(hit, 2);
+           // shake.CamShake();
+            hp--;
+        }
+
+        if (scorePointsCollected == pointToNextLevel) {
+            trashSpawner.spawnRate -= 1;
+            pointToNextLevel += 10;
+        }
 
         scorePoints.text = "Puntos Reciclados: " + scorePointsCollected.ToString();
-        scoreIncorrectPoints.text = "Puntos incorrectos: " + scoreIncorrectPointsCollected.ToString();
-
         Destroy(col.gameObject);
+    }
+
+    void Update()
+    {
+        if (hp == 0)
+        {
+            gameObject.SetActive(false);
+            trashSpawnerActivation.SetActive(false);
+            machine.SetActive(false);
+        }
     }
 }
