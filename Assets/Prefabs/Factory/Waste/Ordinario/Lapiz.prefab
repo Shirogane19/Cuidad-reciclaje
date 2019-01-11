@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 212209012396004322}
   - component: {fileID: 50850906307317910}
   - component: {fileID: 61384238004054216}
-  - component: {fileID: 114765223032041864}
+  - component: {fileID: 2029418264252159737}
   m_Layer: 0
   m_Name: Lapiz
   m_TagString: Ordinario
@@ -129,7 +129,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.89, y: 1.9599999}
   m_EdgeRadius: 0
---- !u!114 &114765223032041864
+--- !u!114 &2029418264252159737
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -138,7 +138,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1443742129152180}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 15e7959b95f98a64d9b067aff8cda98c, type: 3}
+  m_Script: {fileID: 11500000, guid: 1e5b39416f41c5c40af0528b93a4b3f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2

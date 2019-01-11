@@ -11,10 +11,13 @@ using System;
 public class Repository : MonoBehaviour {
 
 	public static float truckMaxScore;
-	private static float newScore;
+    public static float separatorMaxScore;
+    private static float newScoreSeparator;
+    private static float newScore;
 	//----------------------------------------------------------
 	void Awake () {
 		truckMaxScore = 0;
+        separatorMaxScore = 0;
 		load();
 	}
 	//----------------------------------------------------------
@@ -34,8 +37,24 @@ public class Repository : MonoBehaviour {
 			Debug.Log ("Saved");
 		}
 	}
-	//----------------------------------------------------------
-	public static void load()
+    //----------------------------------------------------------
+    public static void SaveSeparatorScore(float newScore)
+    {
+        if (separatorMaxScore < newScoreSeparator)
+        {
+            BinaryFormatter bf = new BinaryFormatter();
+            FileStream file = File.Create(Application.persistentDataPath + "/ScoreData.dat");
+
+            ScoreData sd = new ScoreData();
+            sd.separatorScore = newScoreSeparator;
+            separatorMaxScore = newScoreSeparator;
+
+            bf.Serialize(file, sd);
+            file.Close();
+        }
+    }
+    //----------------------------------------------------------
+    public static void load()
 	{
 		if (File.Exists (Application.persistentDataPath + "/ScoreData.dat")) 
 		{
@@ -46,6 +65,7 @@ public class Repository : MonoBehaviour {
 			file.Close ();
 
 			truckMaxScore = sd.truckScore;
+            separatorMaxScore = sd.separatorScore;
 			Debug.Log ("Loaded");
 		}
 	}
@@ -53,6 +73,7 @@ public class Repository : MonoBehaviour {
 	[Serializable]
 	class ScoreData{
 		public float truckScore;
+        public float separatorScore;
 	}
 	//----------------------------------------------------------
 }

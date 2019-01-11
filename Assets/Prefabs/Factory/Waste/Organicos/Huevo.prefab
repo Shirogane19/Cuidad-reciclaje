@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 212905761529265774}
   - component: {fileID: 61052348837547282}
   - component: {fileID: 50814979182136178}
-  - component: {fileID: 114549603862848910}
+  - component: {fileID: 2607571577942236405}
   m_Layer: 0
   m_Name: Huevo
   m_TagString: Organico
@@ -129,7 +129,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &114549603862848910
+--- !u!114 &2607571577942236405
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -138,7 +138,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1480935480581676}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 15e7959b95f98a64d9b067aff8cda98c, type: 3}
+  m_Script: {fileID: 11500000, guid: 1e5b39416f41c5c40af0528b93a4b3f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2

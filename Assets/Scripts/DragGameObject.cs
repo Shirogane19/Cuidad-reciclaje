@@ -19,9 +19,7 @@ public class DragGameObject : MonoBehaviour {
 
         rb = GetComponent<Rigidbody2D>();
 
-        // Add bouncy material to the thrash
         PhysicsMaterial2D mat = new PhysicsMaterial2D();
-      //  mat.bounciness = 0.1f;
         mat.friction = 0.4f;
         GetComponent<BoxCollider2D>().sharedMaterial = mat;
     }

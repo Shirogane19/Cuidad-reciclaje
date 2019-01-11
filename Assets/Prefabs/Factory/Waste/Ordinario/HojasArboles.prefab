@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 212081590275772892}
   - component: {fileID: 50478325988214644}
   - component: {fileID: 61838731412858970}
-  - component: {fileID: 114514952065174302}
+  - component: {fileID: 4219528511801230657}
   m_Layer: 0
   m_Name: HojasArboles
   m_TagString: Ordinario
@@ -129,7 +129,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.34, y: 2.26}
   m_EdgeRadius: 0
---- !u!114 &114514952065174302
+--- !u!114 &4219528511801230657
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -138,7 +138,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1962968619698734}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 15e7959b95f98a64d9b067aff8cda98c, type: 3}
+  m_Script: {fileID: 11500000, guid: 1e5b39416f41c5c40af0528b93a4b3f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2

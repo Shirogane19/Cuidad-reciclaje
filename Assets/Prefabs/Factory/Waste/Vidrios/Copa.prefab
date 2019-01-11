@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 212610359605323338}
   - component: {fileID: 61089719848926764}
   - component: {fileID: 50968317357144772}
-  - component: {fileID: 114656495546136570}
+  - component: {fileID: 4082953069875680426}
   m_Layer: 0
   m_Name: Copa
   m_TagString: Vidrio
@@ -129,7 +129,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &114656495546136570
+--- !u!114 &4082953069875680426
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -138,7 +138,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1361310274241396}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 15e7959b95f98a64d9b067aff8cda98c, type: 3}
+  m_Script: {fileID: 11500000, guid: 1e5b39416f41c5c40af0528b93a4b3f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2

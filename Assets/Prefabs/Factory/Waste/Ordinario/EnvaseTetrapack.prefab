@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 212827367984413534}
   - component: {fileID: 50045890131980944}
   - component: {fileID: 61920059856865020}
-  - component: {fileID: 114914511649323990}
+  - component: {fileID: 1852994721871573696}
   m_Layer: 0
   m_Name: EnvaseTetrapack
   m_TagString: Ordinario
@@ -129,7 +129,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.37, y: 2.57}
   m_EdgeRadius: 0
---- !u!114 &114914511649323990
+--- !u!114 &1852994721871573696
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -138,7 +138,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1380326068555016}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 15e7959b95f98a64d9b067aff8cda98c, type: 3}
+  m_Script: {fileID: 11500000, guid: 1e5b39416f41c5c40af0528b93a4b3f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2

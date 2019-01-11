@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 212730033141902418}
   - component: {fileID: 61754025648329312}
   - component: {fileID: 50162219822719872}
-  - component: {fileID: 114995053974061820}
+  - component: {fileID: 1966457828461223886}
   m_Layer: 0
   m_Name: Caja
   m_TagString: Papel_Carton
@@ -129,7 +129,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &114995053974061820
+--- !u!114 &1966457828461223886
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -138,7 +138,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1444585891409164}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 15e7959b95f98a64d9b067aff8cda98c, type: 3}
+  m_Script: {fileID: 11500000, guid: 1e5b39416f41c5c40af0528b93a4b3f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2

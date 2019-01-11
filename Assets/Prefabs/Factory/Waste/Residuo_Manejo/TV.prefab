@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 212863598258865044}
   - component: {fileID: 61649023254477654}
   - component: {fileID: 50196639129269752}
-  - component: {fileID: 114266407970395248}
+  - component: {fileID: 4625884773048124192}
   m_Layer: 0
   m_Name: TV
   m_TagString: Residuo_Manejo
@@ -129,7 +129,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &114266407970395248
+--- !u!114 &4625884773048124192
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -138,7 +138,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1217523460066552}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 15e7959b95f98a64d9b067aff8cda98c, type: 3}
+  m_Script: {fileID: 11500000, guid: 1e5b39416f41c5c40af0528b93a4b3f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2

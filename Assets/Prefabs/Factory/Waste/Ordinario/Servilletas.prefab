@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 212012486138914916}
   - component: {fileID: 50343904047622270}
   - component: {fileID: 61296850452274712}
-  - component: {fileID: 114590594538474454}
+  - component: {fileID: 8538474370194077388}
   m_Layer: 0
   m_Name: Servilletas
   m_TagString: Ordinario
@@ -129,7 +129,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3.08, y: 2.5800002}
   m_EdgeRadius: 0
---- !u!114 &114590594538474454
+--- !u!114 &8538474370194077388
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -138,7 +138,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1547575289113810}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 15e7959b95f98a64d9b067aff8cda98c, type: 3}
+  m_Script: {fileID: 11500000, guid: 1e5b39416f41c5c40af0528b93a4b3f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2

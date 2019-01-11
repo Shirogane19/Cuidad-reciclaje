@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 212288424361424918}
   - component: {fileID: 61612780469169656}
   - component: {fileID: 50401289731061492}
-  - component: {fileID: 114230337276685288}
+  - component: {fileID: 7773664541320371131}
   m_Layer: 0
   m_Name: Cristales
   m_TagString: Vidrio
@@ -129,7 +129,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &114230337276685288
+--- !u!114 &7773664541320371131
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -138,7 +138,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1047590781723802}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 15e7959b95f98a64d9b067aff8cda98c, type: 3}
+  m_Script: {fileID: 11500000, guid: 1e5b39416f41c5c40af0528b93a4b3f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
