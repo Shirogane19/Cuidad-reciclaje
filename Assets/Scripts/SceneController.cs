@@ -37,11 +37,24 @@ public class SceneController : MonoBehaviour {
 			StartGarbageTruckRunner ();
 		}
 
-		if (CrossPlatformInputManager.GetAxis ("StartCity") != 0 && isBotonPressed == false) {
+        if (CrossPlatformInputManager.GetAxis("StartSeparator") != 0 && isBotonPressed == false)
+        {
+            isBotonPressed = true;
+            StartGarbageSeparator();
+        }
+
+        if (CrossPlatformInputManager.GetAxis ("StartCity") != 0 && isBotonPressed == false) {
 			isBotonPressed = true;
 			StartCity ();
 		}
-	}
+
+        if (CrossPlatformInputManager.GetAxis("StartMainScreen") != 0 && isBotonPressed == false)
+        {
+            Debug.Log("Entrando");
+            isBotonPressed = true;
+            StartMainScreen();
+        }
+    }
 	//----------------------------------------------------------
 	public void StartCity()
 	{
@@ -52,8 +65,23 @@ public class SceneController : MonoBehaviour {
 	{
 		loadScene ("Garbage_truck_runner");
 	}
-	//----------------------------------------------------------
-	private void loadScene (string sceneName)
+    //----------------------------------------------------------
+    public void StartGarbageSeparator()
+    {
+        loadScene("Garbage_Separator");
+    }
+    //----------------------------------------------------------
+    public void StartCredits()
+    {
+        loadScene("Credits");
+    }
+    //----------------------------------------------------------
+    public void StartMainScreen()
+    {
+        loadScene("Main_Screen");
+    }
+    //----------------------------------------------------------
+    private void loadScene (string sceneName)
 	{
 		Instantiate(prefabLoadingScreen);
 		StartCoroutine (LoadAsyncronously(sceneName));

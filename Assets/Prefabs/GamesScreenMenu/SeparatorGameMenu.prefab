@@ -90,7 +90,7 @@ GameObject:
   - component: {fileID: 114984013597839712}
   - component: {fileID: 114017329173679818}
   m_Layer: 5
-  m_Name: TruckGameMenu
+  m_Name: SeparatorGameMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -201,13 +201,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tipImageList:
-  - {fileID: 21300000, guid: 9fb2072319c2e194b840fb0f7aae8f89, type: 3}
-  - {fileID: 21300000, guid: af81883541346cd4199b29d044dfb21d, type: 3}
-  - {fileID: 21300000, guid: a2ed8bbbeee0cc34ab655ddfaeae7abc, type: 3}
-  - {fileID: 21300000, guid: d7810b74f65089043af37effab4a39b1, type: 3}
-  - {fileID: 21300000, guid: 4f540eec5e6297348a759c571c03a4db, type: 3}
-  - {fileID: 21300000, guid: e17b4753cb1a7994e86eb4c51022d5e1, type: 3}
-  - {fileID: 21300000, guid: 8d1c69a7f175fee43bd22b763656ec75, type: 3}
+  - {fileID: 21300000, guid: 5e78a5dde71d3974391efd35ec8e2907, type: 3}
+  - {fileID: 21300000, guid: a78618d80ec1c2045a97284c630c1863, type: 3}
+  - {fileID: 21300000, guid: 85cc86a028229bc4d9a2be98f1213b85, type: 3}
+  - {fileID: 21300000, guid: b7b1ceb9fdc804f48ab999ebc21d8c8e, type: 3}
+  - {fileID: 21300000, guid: 7dd76cf35bc162a4a9e46ae46e9af43f, type: 3}
+  - {fileID: 21300000, guid: a1f2988d8e83cc7498e3cd05ef884dec, type: 3}
+  - {fileID: 21300000, guid: 0c680557a0f69c449903f2c814efff2e, type: 3}
 --- !u!1 &1314056958492472
 GameObject:
   m_ObjectHideFlags: 0
@@ -273,7 +273,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 9fb2072319c2e194b840fb0f7aae8f89, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5e78a5dde71d3974391efd35ec8e2907, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -293,9 +293,9 @@ GameObject:
   - component: {fileID: 224691574545490306}
   - component: {fileID: 222920915174892308}
   - component: {fileID: 114916266238949084}
-  - component: {fileID: 114011539524607594}
+  - component: {fileID: 8882821136436734321}
   m_Layer: 5
-  m_Name: TruckRecordTxt
+  m_Name: SeparatorRecordTxt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -362,7 +362,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 'Puntaje obtenido: 0'
---- !u!114 &114011539524607594
+--- !u!114 &8882821136436734321
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -371,7 +371,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1352315654458432}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6208e5339a2eeeb4394e5adc5b922d8c, type: 3}
+  m_Script: {fileID: 11500000, guid: 6590afd7fb4243443a42c82548431242, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1411205984267366
@@ -676,7 +676,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Recolector de basura
+  m_Text: Separador de basura
 --- !u!1 &1472856388835480
 GameObject:
   m_ObjectHideFlags: 0
@@ -954,7 +954,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ab98b66288df7b4fa182075f2f12bd6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  axisName: StartTruck
+  axisName: StartSeparator
   axisValue: 1
   responseSpeed: 100
   returnToCentreSpeed: 100
@@ -1115,7 +1115,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.08044982, g: 0.08044982, b: 0.6838235, a: 0.847}
+  m_Color: {r: 0.16965057, g: 0.5943396, b: 0.10933607, a: 0.847}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1234,7 +1234,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1781108965072758}
   m_LocalRotation: {x: 0.06020606, y: -0.0012541424, z: 0.99796873, w: -0.020788519}
-  m_LocalPosition: {x: 0, y: 0, z: -25.409496}
+  m_LocalPosition: {x: 0, y: 0, z: -32}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 224874292935692794}
@@ -1242,7 +1242,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 6.905, z: -1977.613}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 21, y: 117}
+  m_AnchoredPosition: {x: 76, y: 119}
   m_SizeDelta: {x: 88.910034, y: 95.589966}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &222396172371477262
@@ -1429,5 +1429,5 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Misi\xF3n: Recolectar los residuos correspondiente al color del cami\xF3n
-    que se de vaya a asignar."
+  m_Text: "Misi\xF3n: Separar la basura que vaya apareciendo en la m\xE1quina e ir
+    depositandolos en el contenedor correspondiente"

@@ -14,7 +14,7 @@ public class TipImageController : MonoBehaviour {
 	//----------------------------------------------------------
 	void Awake () 
 	{
-		tipImg = GameObject.Find ("TruckGameTipImg").GetComponent<Image>();
+		tipImg = GameObject.Find ("GameTipImg").GetComponent<Image>();
 	}
 	//----------------------------------------------------------
 	void Start()
