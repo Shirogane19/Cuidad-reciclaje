@@ -83,8 +83,11 @@ public class TrashCanPoints : MonoBehaviour {
         }
 
         if (scorePointsCollected == pointToNextLevel) {
-            trashSpawner.spawnRate -= 1;
-            pointToNextLevel += 10;
+            if(trashSpawner.spawnRate > 3)
+            {
+                trashSpawner.spawnRate = trashSpawner.spawnRate - 1;
+                pointToNextLevel += 10;
+            }
         }
 
         scorePoints.text = "Puntos Reciclados: " + scorePointsCollected.ToString();

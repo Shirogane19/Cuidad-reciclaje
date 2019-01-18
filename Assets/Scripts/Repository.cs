@@ -40,14 +40,14 @@ public class Repository : MonoBehaviour {
     //----------------------------------------------------------
     public static void SaveSeparatorScore(float newScore)
     {
-        if (separatorMaxScore < newScoreSeparator)
+        if (separatorMaxScore < newScore)
         {
             BinaryFormatter bf = new BinaryFormatter();
             FileStream file = File.Create(Application.persistentDataPath + "/ScoreData.dat");
 
             ScoreData sd = new ScoreData();
-            sd.separatorScore = newScoreSeparator;
-            separatorMaxScore = newScoreSeparator;
+            sd.separatorScore = newScore;
+            separatorMaxScore = newScore;
 
             bf.Serialize(file, sd);
             file.Close();

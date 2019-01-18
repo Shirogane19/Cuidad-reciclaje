@@ -482,8 +482,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1565845969}
-  - component: {fileID: 1565845968}
   - component: {fileID: 1565845967}
+  - component: {fileID: 1565845968}
   m_Layer: 0
   m_Name: AcessScoreData
   m_TagString: Untagged
@@ -512,7 +512,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1565845966}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 078b79907ef3fd8498c6d691fd14eef6, type: 3}
+  m_Script: {fileID: 11500000, guid: e717af24c97d5204a98da962238631e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &1565845969
