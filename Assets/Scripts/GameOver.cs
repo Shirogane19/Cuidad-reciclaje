@@ -100,7 +100,7 @@ public class GameOver : MonoBehaviour {
 		TotalScoreTxt.text = "Total: " + finalScore.ToString ();
 		TotalScoreTxt.enabled = true;
 		audioSource.PlayOneShot (finalScoreSound,soundVolumen);
-		Repository.SaveTruckScore (finalScore);
+		Repository.setSaveTruck (finalScore);
 		Invoke ("showButton",soundVolumen);
 	}
 	//----------------------------------------------------------

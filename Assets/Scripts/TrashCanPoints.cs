@@ -40,7 +40,7 @@ public class TrashCanPoints : MonoBehaviour {
         scorePoints = GameObject.Find("ScorePoints").GetComponent<Text>();
         if (gameObject.name.Equals("Organic_basket"))
         {
-            tag = "Organicos";
+            tag = "Organico";
         }
         if (gameObject.name.Equals("Aluminium_basket"))
         {

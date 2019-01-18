@@ -13,6 +13,11 @@ TagManager:
   - Ordinario
   - Obstaculo
   - ScreenShake
+  - Life1
+  - Wall
+  - Life3
+  - Life2
+  - Organic_basket
   layers:
   - Default
   - TransparentFX

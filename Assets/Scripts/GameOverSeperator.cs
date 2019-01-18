@@ -75,7 +75,7 @@ public class GameOverSeperator : MonoBehaviour
         ScorePointsTxt.text = "Puntos reciclados: " + TrashCanPoints.scorePointsCollected.ToString();
         ScorePointsTxt.enabled = true;
         audioSource.PlayOneShot(finalScoreSound, soundVolumen);
-        Repository.SaveSeparatorScore(TrashCanPoints.scorePointsCollected);
+        Repository.setSaveSeparator(TrashCanPoints.scorePointsCollected);
         Invoke("showButton", soundVolumen);
     }
     //----------------------------------------------------------
