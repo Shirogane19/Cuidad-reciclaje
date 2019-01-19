@@ -213,8 +213,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   axisName: StartCity
   axisValue: 1
-  responseSpeed: 3
-  returnToCentreSpeed: 3
+  responseSpeed: 100
+  returnToCentreSpeed: 100
 --- !u!114 &114070414468450086
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -229,8 +229,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   axisName: PlaySound2
   axisValue: 1
-  responseSpeed: 3
-  returnToCentreSpeed: 3
+  responseSpeed: 100
+  returnToCentreSpeed: 100
 --- !u!1 &1067949834638180
 GameObject:
   m_ObjectHideFlags: 0

@@ -25,7 +25,7 @@ public class DragGameObject : MonoBehaviour {
     }
 	
 	// Update is called once per frame
-	void Update () {
+	void FixedUpdate () {
 
         // Initiating touch event
         // if touch event takes place

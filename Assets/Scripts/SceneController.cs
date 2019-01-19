@@ -50,10 +50,15 @@ public class SceneController : MonoBehaviour {
 
         if (CrossPlatformInputManager.GetAxis("StartMainScreen") != 0 && isBotonPressed == false)
         {
-            Debug.Log("Entrando");
             isBotonPressed = true;
             StartMainScreen();
         }
+
+		if (CrossPlatformInputManager.GetAxis("StartCredits") != 0 && isBotonPressed == false)
+		{
+			isBotonPressed = true;
+			StartCredits();
+		}
     }
 	//----------------------------------------------------------
 	public void StartCity()

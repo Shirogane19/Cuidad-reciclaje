@@ -377,5 +377,37 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1801039827964237756, guid: 065606124b0e7284d8732f3eef2b869d,
+        type: 3}
+      propertyPath: responseSpeed
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 1801039827964237756, guid: 065606124b0e7284d8732f3eef2b869d,
+        type: 3}
+      propertyPath: returnToCentreSpeed
+      value: 100
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 065606124b0e7284d8732f3eef2b869d, type: 3}
+--- !u!1 &1269712725 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6061564122706790624, guid: 065606124b0e7284d8732f3eef2b869d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1269712724}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1269712726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1269712725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ab98b66288df7b4fa182075f2f12bd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  axisName: CloseSound
+  axisValue: 1
+  responseSpeed: 100
+  returnToCentreSpeed: 100

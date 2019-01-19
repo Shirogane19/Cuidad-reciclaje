@@ -292,7 +292,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -1.8921509, y: 4.278823}
+  m_AnchoredPosition: {x: -1.8921509, y: 4.2788086}
   m_SizeDelta: {x: -78.21594, y: -41.242035}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6519966580110531145
@@ -855,8 +855,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   axisName: StartCity
   axisValue: 1
-  responseSpeed: 3
-  returnToCentreSpeed: 3
+  responseSpeed: 100
+  returnToCentreSpeed: 100
 --- !u!114 &1298984976050287376
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -871,8 +871,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   axisName: PlaySound2
   axisValue: 1
-  responseSpeed: 3
-  returnToCentreSpeed: 3
+  responseSpeed: 100
+  returnToCentreSpeed: 100
 --- !u!1 &9097031429455003504
 GameObject:
   m_ObjectHideFlags: 0

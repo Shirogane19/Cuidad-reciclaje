@@ -1401,7 +1401,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   axisName: Move
   axisValue: 1
-  responseSpeed: 50
+  responseSpeed: 100
   returnToCentreSpeed: 100
 --- !u!1001 &560029971
 PrefabInstance:
@@ -2374,7 +2374,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   axisName: Move
   axisValue: -1
-  responseSpeed: 50
+  responseSpeed: 100
   returnToCentreSpeed: 100
 --- !u!1 &1185430777
 GameObject:

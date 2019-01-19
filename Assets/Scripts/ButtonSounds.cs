@@ -54,6 +54,10 @@ public class ButtonSounds : MonoBehaviour {
 			isBotonPressed = true;
 			playCloseButton ();
 		}
+		if (CrossPlatformInputManager.GetAxis ("StartSound") != 0 && isBotonPressed == false) {
+			isBotonPressed = true;
+			playStartButton ();
+		}
 	}
 	//----------------------------------------------------------
 	public void playButton1()
