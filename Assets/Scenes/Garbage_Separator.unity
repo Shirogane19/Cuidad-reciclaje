@@ -802,6 +802,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pointToNextLevel: 10
+  spawnRate: 5
   hit: {fileID: 8300000, guid: be1373f63d582774fb0920b9f029aff5, type: 3}
   getGoodPoint: {fileID: 8300000, guid: 0c008ee3ee72a4362a35be25fa5de043, type: 3}
 --- !u!82 &538482799
@@ -1855,6 +1856,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pointToNextLevel: 10
+  spawnRate: 5
   hit: {fileID: 8300000, guid: be1373f63d582774fb0920b9f029aff5, type: 3}
   getGoodPoint: {fileID: 8300000, guid: 0c008ee3ee72a4362a35be25fa5de043, type: 3}
 --- !u!82 &1656500261
@@ -2025,6 +2027,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pointToNextLevel: 10
+  spawnRate: 5
   hit: {fileID: 8300000, guid: be1373f63d582774fb0920b9f029aff5, type: 3}
   getGoodPoint: {fileID: 8300000, guid: 0c008ee3ee72a4362a35be25fa5de043, type: 3}
 --- !u!82 &1687785462
@@ -2652,7 +2655,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2053619266
 PrefabInstance:
@@ -2893,7 +2896,7 @@ PrefabInstance:
     - target: {fileID: 1316159679681270060, guid: 41e95a1c9966af74dbac1fa78875ad8e,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1316159679681270060, guid: 41e95a1c9966af74dbac1fa78875ad8e,
         type: 3}
