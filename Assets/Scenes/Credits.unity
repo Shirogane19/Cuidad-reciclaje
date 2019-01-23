@@ -387,6 +387,22 @@ PrefabInstance:
       propertyPath: returnToCentreSpeed
       value: 100
       objectReference: {fileID: 0}
+    - target: {fileID: 732287061, guid: 065606124b0e7284d8732f3eef2b869d, type: 3}
+      propertyPath: m_Text
+      value: "M\xDASICA:"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1366469754, guid: 065606124b0e7284d8732f3eef2b869d, type: 3}
+      propertyPath: m_Text
+      value: "PROGRAMACI\xD3N/DISE\xD1O:"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1434637921, guid: 065606124b0e7284d8732f3eef2b869d, type: 3}
+      propertyPath: m_Text
+      value: "CR\xC9DITOS"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1745844872, guid: 065606124b0e7284d8732f3eef2b869d, type: 3}
+      propertyPath: m_Text
+      value: "ARTE/GR\xC1FICOS:"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 065606124b0e7284d8732f3eef2b869d, type: 3}
 --- !u!1 &1269712725 stripped

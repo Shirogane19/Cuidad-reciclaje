@@ -473,7 +473,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'MUSICA:'
+  m_Text: "M\xDASICA:"
 --- !u!1 &1009473020
 GameObject:
   m_ObjectHideFlags: 0
@@ -705,7 +705,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "PROGRAMACION/DISE\xD1O:"
+  m_Text: "PROGRAMACI\xD3N/DISE\xD1O:"
 --- !u!1 &1376545811
 GameObject:
   m_ObjectHideFlags: 0
@@ -863,7 +863,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: CREDITOS
+  m_Text: "CR\xC9DITOS"
 --- !u!1 &1482918097
 GameObject:
   m_ObjectHideFlags: 0
@@ -1021,7 +1021,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'ARTE/GRAFICOS:'
+  m_Text: "ARTE/GR\xC1FICOS:"
 --- !u!1 &1957700601
 GameObject:
   m_ObjectHideFlags: 0
