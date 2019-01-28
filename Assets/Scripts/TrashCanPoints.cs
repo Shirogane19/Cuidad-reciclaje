@@ -10,6 +10,7 @@ public class TrashCanPoints : MonoBehaviour {
     public static int hp;
     //Level 2
     public int pointToNextLevel;
+    public int spawnRate = 5;
     // UI element <Text>Component
     private Text scorePoints;
 
@@ -18,7 +19,7 @@ public class TrashCanPoints : MonoBehaviour {
     public AudioClip getGoodPoint;
     AudioSource audioSource;
 
-    private TrashSpawn trashSpawner;
+    private TrashSpawn trashSpawner = new TrashSpawn();
     private GameObject trashSpawnerActivation;
     private GameObject machine;
     //private GameObject conveyorBelt;
@@ -83,9 +84,10 @@ public class TrashCanPoints : MonoBehaviour {
         }
 
         if (scorePointsCollected == pointToNextLevel) {
-            if(trashSpawner.spawnRate > 3)
+            if(spawnRate > 3)
             {
-                trashSpawner.spawnRate = trashSpawner.spawnRate - 1;
+                //trashSpawner.setSpawnRate(spawnRate - 1);
+                trashSpawner.spawnRate = spawnRate - 1;
                 pointToNextLevel += 10;
             }
         }
