@@ -480,16 +480,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1424970888944852}
-  m_LocalRotation: {x: 0.0009819134, y: 0.0602111, z: 0.016276086, w: 0.9980525}
-  m_LocalPosition: {x: 0, y: 0, z: 25.45962}
+  m_LocalRotation: {x: 0.0015171472, y: 0.060199995, z: 0.0074028256, w: 0.99815774}
+  m_LocalPosition: {x: 0, y: 0, z: 27}
   m_LocalScale: {x: 1.000001, y: 1.000001, z: 1}
   m_Children: []
   m_Father: {fileID: 224874292935692794}
   m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 6.905, z: -2878.131}
+  m_LocalEulerAnglesHint: {x: 0.12200001, y: 6.9040003, z: -2879.143}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -446.58997, y: 116.5}
+  m_AnchoredPosition: {x: -462, y: 86}
   m_SizeDelta: {x: 88.910034, y: 94.589966}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &222516765893317794
@@ -1233,16 +1233,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1781108965072758}
-  m_LocalRotation: {x: 0.06020606, y: -0.0012541424, z: 0.99796873, w: -0.020788519}
+  m_LocalRotation: {x: 0.060167026, y: -0.0025042826, z: 0.9981852, w: -0.000057369944}
   m_LocalPosition: {x: 0, y: 0, z: -32}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 224874292935692794}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 6.905, z: -1977.613}
+  m_LocalEulerAnglesHint: {x: 0.286, y: 6.899, z: -1979.9761}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 76, y: 119}
+  m_AnchoredPosition: {x: 76, y: 89}
   m_SizeDelta: {x: 88.910034, y: 95.589966}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &222396172371477262
@@ -1430,5 +1430,5 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Misi\xF3n: Separar los diferentes materiales reciclables que vayan apareciendo
-    en la m\xE1quina transportadora e ir depositandolos en los diferentes contenedorres
-    correspondientesl"
+    en la m\xE1quina transportadora e ir depositandolos en los diferentes contenedores
+    correspondientes."

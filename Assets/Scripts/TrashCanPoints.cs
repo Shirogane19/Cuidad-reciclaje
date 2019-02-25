@@ -8,9 +8,6 @@ public class TrashCanPoints : MonoBehaviour {
     public static int scorePointsCollected;
     //HP
     public static int hp;
-    //Level 2
-    public int pointToNextLevel;
-    public int spawnRate = 5;
     // UI element <Text>Component
     private Text scorePoints;
 
@@ -22,19 +19,15 @@ public class TrashCanPoints : MonoBehaviour {
     private TrashSpawn trashSpawner = new TrashSpawn();
     private GameObject trashSpawnerActivation;
     private GameObject machine;
-    //private GameObject conveyorBelt;
 
     private string tag; //Allow to know what kind of object should collide
 
     void Start()
     {
         scorePointsCollected = 0;
-        pointToNextLevel = 10;
         audioSource = GetComponent<AudioSource>();
         trashSpawnerActivation = GameObject.Find("TrashSpawner");
         machine = GameObject.Find("Machine");
-        //Get camera component
-        //shake = GameObject.FindGameObjectWithTag("ScreenShake").GetComponent<ShakeCamera>();
         //Set Life points
         hp = 3;
         //Get Texts components
@@ -79,18 +72,9 @@ public class TrashCanPoints : MonoBehaviour {
         else if (col.gameObject.tag == "Wall1" || col.gameObject.tag == "Wall2" || col.gameObject.tag == "Wall3" || col.gameObject.tag != tag)
         {
             audioSource.PlayOneShot(hit, 2);
-           // shake.CamShake();
             hp--;
         }
 
-        if (scorePointsCollected == pointToNextLevel) {
-            if(spawnRate > 3)
-            {
-                //trashSpawner.setSpawnRate(spawnRate - 1);
-                trashSpawner.spawnRate = spawnRate - 1;
-                pointToNextLevel += 10;
-            }
-        }
 
         scorePoints.text = "Puntos Reciclados: " + scorePointsCollected.ToString();
         Destroy(col.gameObject);

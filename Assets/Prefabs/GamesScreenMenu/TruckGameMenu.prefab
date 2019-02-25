@@ -480,16 +480,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1424970888944852}
-  m_LocalRotation: {x: 0.0009819134, y: 0.0602111, z: 0.016276086, w: 0.9980525}
-  m_LocalPosition: {x: 0, y: 0, z: 25.45962}
-  m_LocalScale: {x: 1.000001, y: 1.000001, z: 1}
+  m_LocalRotation: {x: 0.0016519135, y: 0.06019644, z: 0.005168226, w: 0.9981718}
+  m_LocalPosition: {x: 0, y: 0, z: 27}
+  m_LocalScale: {x: 1.000001, y: 0.99434096, z: 1}
   m_Children: []
   m_Father: {fileID: 224874292935692794}
   m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 6.905, z: -2878.131}
+  m_LocalEulerAnglesHint: {x: 0.15300001, y: 6.9030004, z: -2879.397}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -446.58997, y: 116.5}
+  m_AnchoredPosition: {x: -461, y: 88}
   m_SizeDelta: {x: 88.910034, y: 94.589966}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &222516765893317794
@@ -1233,16 +1233,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1781108965072758}
-  m_LocalRotation: {x: 0.06020606, y: -0.0012541424, z: 0.99796873, w: -0.020788519}
-  m_LocalPosition: {x: 0, y: 0, z: -25.409496}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.060165424, y: -0.002542594, z: 0.9981851, w: 0.0005782308}
+  m_LocalPosition: {x: 0, y: 0, z: -33}
+  m_LocalScale: {x: 1, y: 1.0063, z: 1}
   m_Children: []
   m_Father: {fileID: 224874292935692794}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 6.905, z: -1977.613}
+  m_LocalEulerAnglesHint: {x: 0.29500002, y: 6.899, z: -1980.049}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 21, y: 117}
+  m_AnchoredPosition: {x: 78, y: 87}
   m_SizeDelta: {x: 88.910034, y: 95.589966}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &222396172371477262
@@ -1429,5 +1429,5 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Misi\xF3n: Recolectar los residuos correspondiente al color del cami\xF3n
-    que se de vaya a asignar."
+  m_Text: "Misi\xF3n: Recolectar los residuos correspondientes al color del cami\xF3n
+    que se le vaya a asignar."
